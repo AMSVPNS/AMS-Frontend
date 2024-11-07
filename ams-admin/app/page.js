@@ -2,6 +2,7 @@
 import Image from "next/image" 
 import Link from "next/link";
 export default function Login() {
+  
   return (
     <div className="flex min-h-screen items-center justify-center bg-gradient-to-r from-white to-blue-100">
       <div className="flex items-center justify-between space-x-8 bg-white shadow-lg rounded-lg p-8">
@@ -36,14 +37,12 @@ export default function Login() {
             <div className="relative">
               <label className="text-black" htmlFor="password">Password</label>
               <div className="flex items-center border border-gray-300 rounded-md bg-white p-2">
-                
                 <input
                   type="password"
                   id="password"
                   placeholder="********"
                   className="w-full outline-none text-gray-700"
                 />
-                
               </div>
             </div>
 
