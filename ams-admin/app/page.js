@@ -1,8 +1,7 @@
-'use client';
-import Image from "next/image" 
+"use client";
+import Image from "next/image";
 import Link from "next/link";
 export default function Login() {
-  
   return (
     <div className="flex min-h-screen items-center justify-center bg-gradient-to-r from-white to-blue-100">
       <div className="flex items-center justify-between space-x-8 bg-white shadow-lg rounded-lg p-8">
@@ -18,11 +17,15 @@ export default function Login() {
         </div>
         {/* Right side - Form */}
         <div className="w-[400px]  p-8 rounded-lg">
-          <h2 className="text-3xl font-bold text-black text-center mb-6">Login</h2>
+          <h2 className="text-3xl font-bold text-black text-center mb-6">
+            Login
+          </h2>
           <form className="space-y-4">
             {/* Email input */}
             <div className="relative">
-              <label className="text-black" htmlFor="email">Email</label>
+              <label className="text-black" htmlFor="email">
+                Email
+              </label>
               <div className="flex items-center border border-gray-300 rounded-md bg-white p-2">
                 <input
                   type="email"
@@ -35,7 +38,9 @@ export default function Login() {
 
             {/* Password input */}
             <div className="relative">
-              <label className="text-black" htmlFor="password">Password</label>
+              <label className="text-black" htmlFor="password">
+                Password
+              </label>
               <div className="flex items-center border border-gray-300 rounded-md bg-white p-2">
                 <input
                   type="password"
@@ -52,7 +57,9 @@ export default function Login() {
                 <input type="checkbox" className="mr-2" />
                 Remember me
               </label>
-              <Link href="#" className="hover:underline">Forgot Password?</Link>
+              <Link href="#" className="hover:underline">
+                Forgot Password?
+              </Link>
             </div>
 
             {/* Login button */}
